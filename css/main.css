@@ -1,22 +1,65 @@
+/********** GENERAL **********/
+
 body {
     font-family: Arial, Helvetica, sans-serif ;
     margin: 0px;
 }
 
-h1 {
-    font-size: 36px;
-}
-
 a {
     color: black;
     text-decoration: none;
+} 
+
+/********** HEADER **********/
+
+#header {
+    background-color: #6ab47b;
 }
 
-p a {
-    font-weight: bold;
-}  
+#header h1 {
+    font-size: 36px;
+    padding: 15px 0 0 0;
+    margin: 0px;
+    text-align: center;
+}
+
+#header h1 a {
+    color: white;
+}
+
+#header h2 {
+    text-align: center;
+    margin: 0;
+}
+
+#header h2 a {
+    color: white;
+}
+
+/********** NAVBAR **********/
+
+.nav {
+    background-color: #599a68;
+    text-align: center;
+    list-style-type: none;
+}
 
 .nav li {
     display: inline-block;
-    text-transform: uppercase;
+    padding: 6px 12px;
 }
+
+.nav li:hover {
+    background-color: #6ab47b;
+    border
+}
+
+.nav li a {
+    color: white;
+}
+
+/********** CONTENT **********/
+
+#content a {
+    font-weight: bold;
+} 
